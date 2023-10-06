@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE0BD1662A9C5AB900DB04A7 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0BD1652A9C5AB900DB04A7 /* TabbarController.swift */; };
+		CE0BD1682A9C635F00DB04A7 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0BD1672A9C635F00DB04A7 /* ChatViewController.swift */; };
+		CE0BD16A2A9C637200DB04A7 /* OnlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0BD1692A9C637200DB04A7 /* OnlineViewController.swift */; };
+		CE0BD16C2A9C638A00DB04A7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0BD16B2A9C638A00DB04A7 /* ProfileViewController.swift */; };
+		CE0BD1712A9C81DD00DB04A7 /* TitleHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0BD1702A9C81DD00DB04A7 /* TitleHeaderCell.swift */; };
+		CE0BD1732A9C821B00DB04A7 /* MoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0BD1722A9C821B00DB04A7 /* MoviesTableViewCell.swift */; };
+		CE0BD1752A9C862400DB04A7 /* MoviePosterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0BD1742A9C862400DB04A7 /* MoviePosterCollectionViewCell.swift */; };
+		CE0BD1772A9C8F8C00DB04A7 /* UserListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0BD1762A9C8F8C00DB04A7 /* UserListTableViewCell.swift */; };
+		CE0BD1792A9CB08400DB04A7 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0BD1782A9CB08400DB04A7 /* HomeViewModel.swift */; };
+		CE0BD17B2A9CB09000DB04A7 /* HomeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0BD17A2A9CB09000DB04A7 /* HomeEntity.swift */; };
+		CE0BD17F2A9CD19200DB04A7 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0BD17E2A9CD19200DB04A7 /* WebViewController.swift */; };
+		CE7A5E142A9BA2FE006139D0 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A5E132A9BA2FE006139D0 /* HomePageViewController.swift */; };
+		CE7A5E172A9BA32D006139D0 /* HomePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7A5E162A9BA32D006139D0 /* HomePage.storyboard */; };
+		CE9AD1BB2A9B66C600935D07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9AD1BA2A9B66C600935D07 /* AppDelegate.swift */; };
+		CE9AD1BF2A9B66C600935D07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9AD1BE2A9B66C600935D07 /* ViewController.swift */; };
+		CE9AD1C22A9B66C600935D07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9AD1C02A9B66C600935D07 /* Main.storyboard */; };
+		CE9AD1C52A9B66C600935D07 /* OTT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE9AD1C32A9B66C600935D07 /* OTT.xcdatamodeld */; };
+		CE9AD1C72A9B66C800935D07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9AD1C62A9B66C800935D07 /* Assets.xcassets */; };
+		CE9AD1CA2A9B66C800935D07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9AD1C82A9B66C800935D07 /* LaunchScreen.storyboard */; };
+		CE9AD1D32A9B6B3500935D07 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE9AD1D22A9B6B3500935D07 /* GoogleService-Info.plist */; };
+		CE9AD1D62A9B6C5C00935D07 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CE9AD1D52A9B6C5C00935D07 /* FirebaseAnalytics */; };
+		CE9AD1D82A9B6C5C00935D07 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = CE9AD1D72A9B6C5C00935D07 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		CE9AD1DA2A9B6C5C00935D07 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CE9AD1D92A9B6C5C00935D07 /* FirebaseAuth */; };
+		CE9AD1DC2A9B6C5C00935D07 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = CE9AD1DB2A9B6C5C00935D07 /* FirebaseStorage */; };
+		CE9AD1DE2A9B6C5C00935D07 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = CE9AD1DD2A9B6C5C00935D07 /* FirebaseStorageCombine-Community */; };
+		EC90C5E341CD294A54B6D196 /* Pods_OTT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFA715A9BB475B2C3FA9770 /* Pods_OTT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		62C32938E995323CE8F27CAC /* Pods-OTT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTT.debug.xcconfig"; path = "Target Support Files/Pods-OTT/Pods-OTT.debug.xcconfig"; sourceTree = "<group>"; };
+		8F97EC21B9D647DABFFF7F3A /* Pods-OTT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTT.release.xcconfig"; path = "Target Support Files/Pods-OTT/Pods-OTT.release.xcconfig"; sourceTree = "<group>"; };
+		CE0BD1652A9C5AB900DB04A7 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		CE0BD1672A9C635F00DB04A7 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		CE0BD1692A9C637200DB04A7 /* OnlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineViewController.swift; sourceTree = "<group>"; };
+		CE0BD16B2A9C638A00DB04A7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CE0BD1702A9C81DD00DB04A7 /* TitleHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleHeaderCell.swift; sourceTree = "<group>"; };
+		CE0BD1722A9C821B00DB04A7 /* MoviesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewCell.swift; sourceTree = "<group>"; };
+		CE0BD1742A9C862400DB04A7 /* MoviePosterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePosterCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE0BD1762A9C8F8C00DB04A7 /* UserListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListTableViewCell.swift; sourceTree = "<group>"; };
+		CE0BD1782A9CB08400DB04A7 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		CE0BD17A2A9CB09000DB04A7 /* HomeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEntity.swift; sourceTree = "<group>"; };
+		CE0BD17E2A9CD19200DB04A7 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		CE7A5E132A9BA2FE006139D0 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		CE7A5E162A9BA32D006139D0 /* HomePage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomePage.storyboard; sourceTree = "<group>"; };
+		CE9AD1B72A9B66C600935D07 /* OTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9AD1BA2A9B66C600935D07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE9AD1BE2A9B66C600935D07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE9AD1C12A9B66C600935D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE9AD1C42A9B66C600935D07 /* OTT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OTT.xcdatamodel; sourceTree = "<group>"; };
+		CE9AD1C62A9B66C800935D07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE9AD1C92A9B66C800935D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE9AD1CB2A9B66C800935D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9AD1D22A9B6B3500935D07 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DCFA715A9BB475B2C3FA9770 /* Pods_OTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE9AD1B42A9B66C600935D07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9AD1D62A9B6C5C00935D07 /* FirebaseAnalytics in Frameworks */,
+				CE9AD1DC2A9B6C5C00935D07 /* FirebaseStorage in Frameworks */,
+				CE9AD1DE2A9B6C5C00935D07 /* FirebaseStorageCombine-Community in Frameworks */,
+				CE9AD1DA2A9B6C5C00935D07 /* FirebaseAuth in Frameworks */,
+				CE9AD1D82A9B6C5C00935D07 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				EC90C5E341CD294A54B6D196 /* Pods_OTT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		234D0E11F999F1BDF7EFEC59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA715A9BB475B2C3FA9770 /* Pods_OTT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54DECACAB0A7ECE58423BA3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62C32938E995323CE8F27CAC /* Pods-OTT.debug.xcconfig */,
+				8F97EC21B9D647DABFFF7F3A /* Pods-OTT.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE0BD1642A9C5A7800DB04A7 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				CE0BD1652A9C5AB900DB04A7 /* TabbarController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		CE0BD16F2A9C81C000DB04A7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CE0BD1702A9C81DD00DB04A7 /* TitleHeaderCell.swift */,
+				CE0BD1722A9C821B00DB04A7 /* MoviesTableViewCell.swift */,
+				CE0BD1742A9C862400DB04A7 /* MoviePosterCollectionViewCell.swift */,
+				CE0BD1762A9C8F8C00DB04A7 /* UserListTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CE7A5DFC2A9B99FB006139D0 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CE9AD1BA2A9B66C600935D07 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CE7A5DFD2A9B9A0E006139D0 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				CE9AD1C82A9B66C800935D07 /* LaunchScreen.storyboard */,
+				CE9AD1C02A9B66C600935D07 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		CE7A5DFE2A9B9A25006139D0 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CE9AD1C32A9B66C600935D07 /* OTT.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		CE7A5DFF2A9B9A32006139D0 /* LoginController */ = {
+			isa = PBXGroup;
+			children = (
+				CE9AD1BE2A9B66C600935D07 /* ViewController.swift */,
+			);
+			path = LoginController;
+			sourceTree = "<group>";
+		};
+		CE7A5E002A9B9A45006139D0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CE9AD1C62A9B66C800935D07 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		CE7A5E082A9B9E08006139D0 /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A5E092A9B9E25006139D0 /* View */,
+				CE7A5E0B2A9B9E62006139D0 /* ViewModel */,
+				CE7A5E0C2A9B9E6E006139D0 /* Entity */,
+			);
+			path = LoginModule;
+			sourceTree = "<group>";
+		};
+		CE7A5E092A9B9E25006139D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A5E0A2A9B9E39006139D0 /* Controller */,
+				CE7A5DFD2A9B9A0E006139D0 /* StoryBoard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE7A5E0A2A9B9E39006139D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A5DFF2A9B9A32006139D0 /* LoginController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE7A5E0B2A9B9E62006139D0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE0BD1782A9CB08400DB04A7 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE7A5E0C2A9B9E6E006139D0 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				CE0BD17A2A9CB09000DB04A7 /* HomeEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		CE7A5E112A9BA2C3006139D0 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A5E122A9BA2E2006139D0 /* View */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		CE7A5E122A9BA2E2006139D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE0BD16F2A9C81C000DB04A7 /* Cells */,
+				CE7A5E182A9BA346006139D0 /* Controller */,
+				CE7A5E152A9BA318006139D0 /* StoryBoard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE7A5E152A9BA318006139D0 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A5E162A9BA32D006139D0 /* HomePage.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		CE7A5E182A9BA346006139D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A5E132A9BA2FE006139D0 /* HomePageViewController.swift */,
+				CE0BD1672A9C635F00DB04A7 /* ChatViewController.swift */,
+				CE0BD1692A9C637200DB04A7 /* OnlineViewController.swift */,
+				CE0BD16B2A9C638A00DB04A7 /* ProfileViewController.swift */,
+				CE0BD17E2A9CD19200DB04A7 /* WebViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE9AD1AE2A9B66C600935D07 = {
+			isa = PBXGroup;
+			children = (
+				CE9AD1B92A9B66C600935D07 /* OTT */,
+				CE9AD1B82A9B66C600935D07 /* Products */,
+				54DECACAB0A7ECE58423BA3B /* Pods */,
+				234D0E11F999F1BDF7EFEC59 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE9AD1B82A9B66C600935D07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE9AD1B72A9B66C600935D07 /* OTT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE9AD1B92A9B66C600935D07 /* OTT */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A5E002A9B9A45006139D0 /* Assets */,
+				CE7A5DFE2A9B9A25006139D0 /* CoreData */,
+				CE0BD1642A9C5A7800DB04A7 /* Tabbar */,
+				CE7A5E112A9BA2C3006139D0 /* HomePage */,
+				CE7A5E082A9B9E08006139D0 /* LoginModule */,
+				CE7A5DFC2A9B99FB006139D0 /* AppDelegate */,
+				CE9AD1D12A9B6B0A00935D07 /* Common */,
+			);
+			path = OTT;
+			sourceTree = "<group>";
+		};
+		CE9AD1D12A9B6B0A00935D07 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CE9AD1D22A9B6B3500935D07 /* GoogleService-Info.plist */,
+				CE9AD1CB2A9B66C800935D07 /* Info.plist */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE9AD1B62A9B66C600935D07 /* OTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9AD1CE2A9B66C800935D07 /* Build configuration list for PBXNativeTarget "OTT" */;
+			buildPhases = (
+				885D4CEF233F330E7440BFA3 /* [CP] Check Pods Manifest.lock */,
+				CE9AD1B32A9B66C600935D07 /* Sources */,
+				CE9AD1B42A9B66C600935D07 /* Frameworks */,
+				CE9AD1B52A9B66C600935D07 /* Resources */,
+				91BDCCB5B1E7DD8B2D4580A7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTT;
+			packageProductDependencies = (
+				CE9AD1D52A9B6C5C00935D07 /* FirebaseAnalytics */,
+				CE9AD1D72A9B6C5C00935D07 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				CE9AD1D92A9B6C5C00935D07 /* FirebaseAuth */,
+				CE9AD1DB2A9B6C5C00935D07 /* FirebaseStorage */,
+				CE9AD1DD2A9B6C5C00935D07 /* FirebaseStorageCombine-Community */,
+			);
+			productName = OTT;
+			productReference = CE9AD1B72A9B66C600935D07 /* OTT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE9AD1AF2A9B66C600935D07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CE9AD1B62A9B66C600935D07 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CE9AD1B22A9B66C600935D07 /* Build configuration list for PBXProject "OTT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE9AD1AE2A9B66C600935D07;
+			packageReferences = (
+				CE9AD1D42A9B6C5C00935D07 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = CE9AD1B82A9B66C600935D07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE9AD1B62A9B66C600935D07 /* OTT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE9AD1B52A9B66C600935D07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7A5E172A9BA32D006139D0 /* HomePage.storyboard in Resources */,
+				CE9AD1CA2A9B66C800935D07 /* LaunchScreen.storyboard in Resources */,
+				CE9AD1D32A9B6B3500935D07 /* GoogleService-Info.plist in Resources */,
+				CE9AD1C72A9B66C800935D07 /* Assets.xcassets in Resources */,
+				CE9AD1C22A9B66C600935D07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		885D4CEF233F330E7440BFA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OTT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91BDCCB5B1E7DD8B2D4580A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTT/Pods-OTT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTT/Pods-OTT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OTT/Pods-OTT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE9AD1B32A9B66C600935D07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7A5E142A9BA2FE006139D0 /* HomePageViewController.swift in Sources */,
+				CE0BD16A2A9C637200DB04A7 /* OnlineViewController.swift in Sources */,
+				CE0BD1732A9C821B00DB04A7 /* MoviesTableViewCell.swift in Sources */,
+				CE0BD1752A9C862400DB04A7 /* MoviePosterCollectionViewCell.swift in Sources */,
+				CE0BD1772A9C8F8C00DB04A7 /* UserListTableViewCell.swift in Sources */,
+				CE9AD1BF2A9B66C600935D07 /* ViewController.swift in Sources */,
+				CE9AD1BB2A9B66C600935D07 /* AppDelegate.swift in Sources */,
+				CE0BD1712A9C81DD00DB04A7 /* TitleHeaderCell.swift in Sources */,
+				CE0BD1792A9CB08400DB04A7 /* HomeViewModel.swift in Sources */,
+				CE0BD17B2A9CB09000DB04A7 /* HomeEntity.swift in Sources */,
+				CE0BD1662A9C5AB900DB04A7 /* TabbarController.swift in Sources */,
+				CE0BD1682A9C635F00DB04A7 /* ChatViewController.swift in Sources */,
+				CE0BD16C2A9C638A00DB04A7 /* ProfileViewController.swift in Sources */,
+				CE0BD17F2A9CD19200DB04A7 /* WebViewController.swift in Sources */,
+				CE9AD1C52A9B66C600935D07 /* OTT.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE9AD1C02A9B66C600935D07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9AD1C12A9B66C600935D07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE9AD1C82A9B66C800935D07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9AD1C92A9B66C800935D07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE9AD1CC2A9B66C800935D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE9AD1CD2A9B66C800935D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE9AD1CF2A9B66C800935D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C32938E995323CE8F27CAC /* Pods-OTT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J863CX527B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = /Users/user/Desktop/OTT/OTT/Common/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.new.ott.OTT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE9AD1D02A9B66C800935D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F97EC21B9D647DABFFF7F3A /* Pods-OTT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J863CX527B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = /Users/user/Desktop/OTT/OTT/Common/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.new.ott.OTT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE9AD1B22A9B66C600935D07 /* Build configuration list for PBXProject "OTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9AD1CC2A9B66C800935D07 /* Debug */,
+				CE9AD1CD2A9B66C800935D07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9AD1CE2A9B66C800935D07 /* Build configuration list for PBXNativeTarget "OTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9AD1CF2A9B66C800935D07 /* Debug */,
+				CE9AD1D02A9B66C800935D07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE9AD1D42A9B6C5C00935D07 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE9AD1D52A9B6C5C00935D07 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE9AD1D42A9B6C5C00935D07 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		CE9AD1D72A9B6C5C00935D07 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE9AD1D42A9B6C5C00935D07 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		CE9AD1D92A9B6C5C00935D07 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE9AD1D42A9B6C5C00935D07 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CE9AD1DB2A9B6C5C00935D07 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE9AD1D42A9B6C5C00935D07 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		CE9AD1DD2A9B6C5C00935D07 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE9AD1D42A9B6C5C00935D07 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		CE9AD1C32A9B66C600935D07 /* OTT.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE9AD1C42A9B66C600935D07 /* OTT.xcdatamodel */,
+			);
+			currentVersion = CE9AD1C42A9B66C600935D07 /* OTT.xcdatamodel */;
+			path = OTT.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE9AD1AF2A9B66C600935D07 /* Project object */;
+}

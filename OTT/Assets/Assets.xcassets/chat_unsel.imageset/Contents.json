@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "chat_unsel.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
